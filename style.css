@@ -1,0 +1,32 @@
+body,html{
+    margin: 0;
+    padding : 0;
+    background: #1d2734;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.frame{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+.img1,.img2{
+    width: 500px;
+    height: 400px;
+    border: 1px solid blue;
+    color: rgb(29, 32, 207);
+}
+.search{
+    display: block;
+    align-items: center;
+    margin-left: 55%;
+}
+p{
+    color: #09c409;
+}
